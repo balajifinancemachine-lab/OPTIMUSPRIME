@@ -1,13 +1,16 @@
-# Windows System Optimizer & Administrator
+# OPTIMUSPRIME
 
-Comprehensive Windows 10/11 system administration and performance optimization utility.
+The All-Inclusive, Standalone, Self-Healing Windows System Optimizer & Administrator.
 
-## Architecture
-- Standalone self-healing script: optimusprime.pyw
-- Modular Python package: optimusprime/
-- Full test suite: 	ests/
+## Highlights
+- **100% Single-File Standalone**: Entire application is bundled in one all-inclusive OPTIMUSPRIME.pyw file with zero external local dependencies.
+- **Self-Healing Dependencies**: Automatically checks for customtkinter and Pillow, and installs them via pip. Falls back to native 	kinter/	tk if offline.
+- **Self-Healing Environment**: Recreates missing directories and repairs corrupt settings automatically.
+- **Token Privilege Escalation**: Automatically elevates to Administrator and acquires SeDebugPrivilege for full process management.
+- **Silent Background Execution**: Suppresses console windows when launched via python.exe or pythonw.exe.
 
-## Requirements
-- Python 3.8+
-- Windows 10 / 11
-- customtkinter, Pillow
+## Quick Start
+Double-click OPTIMUSPRIME.pyw or run from command prompt:
+`powershell
+pythonw OPTIMUSPRIME.pyw
+`
